@@ -1,0 +1,9 @@
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex4_Menu\WF_Ex4_Menu\bin\Debug\WF_Ex4_Menu.exe.config
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex4_Menu\WF_Ex4_Menu\bin\Debug\WF_Ex4_Menu.exe
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex4_Menu\WF_Ex4_Menu\bin\Debug\WF_Ex4_Menu.pdb
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex4_Menu\WF_Ex4_Menu\obj\Debug\WF_Ex4_Menu.csprojResolveAssemblyReference.cache
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex4_Menu\WF_Ex4_Menu\obj\Debug\WF_Ex4_Menu.Form1.resources
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex4_Menu\WF_Ex4_Menu\obj\Debug\WF_Ex4_Menu.Properties.Resources.resources
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex4_Menu\WF_Ex4_Menu\obj\Debug\WF_Ex4_Menu.csproj.GenerateResource.Cache
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex4_Menu\WF_Ex4_Menu\obj\Debug\WF_Ex4_Menu.exe
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex4_Menu\WF_Ex4_Menu\obj\Debug\WF_Ex4_Menu.pdb

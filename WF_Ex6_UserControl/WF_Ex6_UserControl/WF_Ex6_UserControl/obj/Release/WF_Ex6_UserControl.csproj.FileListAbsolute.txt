@@ -1,0 +1,9 @@
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl\WF_Ex6_UserControl\bin\Release\WF_Ex6_UserControl.exe.config
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl\WF_Ex6_UserControl\bin\Release\WF_Ex6_UserControl.exe
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl\WF_Ex6_UserControl\bin\Release\WF_Ex6_UserControl.pdb
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl\WF_Ex6_UserControl\obj\Release\WF_Ex6_UserControl.ClockUserControl.resources
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl\WF_Ex6_UserControl\obj\Release\WF_Ex6_UserControl.Form1.resources
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl\WF_Ex6_UserControl\obj\Release\WF_Ex6_UserControl.Properties.Resources.resources
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl\WF_Ex6_UserControl\obj\Release\WF_Ex6_UserControl.csproj.GenerateResource.Cache
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl\WF_Ex6_UserControl\obj\Release\WF_Ex6_UserControl.exe
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl\WF_Ex6_UserControl\obj\Release\WF_Ex6_UserControl.pdb

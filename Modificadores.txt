@@ -1,0 +1,74 @@
+using System;
+
+namespace ModificadoresAcceso
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Modificadores modificadores = new Modificadores();
+            modificadores.MostrarDatos();
+
+            Modificadores.InternalClassPublic internalClassPublic = new Modificadores.InternalClassPublic();
+            internalClassPublic.TextoInterno = "Texto Interno Publico Cambiado";             
+        }
+    }
+
+    public class Modificadores
+    {
+        private string texto;
+
+        public string Texto
+        {
+            get { return texto; }
+            set { texto = value; }
+        }
+
+        public Modificadores()
+        {
+            this.texto = "Texto publico";
+        }
+
+        public void MostrarDatos()
+        {
+            InternalClass internalClass = new InternalClass();
+            InternalClassPublic internalClassPublic = new InternalClassPublic();
+            Console.WriteLine("Texto publico: {0}, Texto interno: {1}, Texto interno publico: {2}",
+                this.Texto, internalClass.TextoInterno, internalClassPublic.TextoInterno);
+        }
+
+        class InternalClass
+        {
+            private string textoInterno;
+
+            public string TextoInterno
+            {
+                get { return textoInterno; }
+                set { textoInterno = value; }
+            }
+
+            public InternalClass()
+            {
+                this.TextoInterno = "Texto Interno";
+            }            
+            
+        }
+
+        public class InternalClassPublic
+        {
+            private string textoInterno;
+
+            public string TextoInterno
+            {
+                get { return textoInterno; }
+                set { textoInterno = value; }
+            }
+
+            public InternalClassPublic()
+            {
+                this.TextoInterno = "Texto Interno Publico";
+            }
+
+        }
+    }
+}

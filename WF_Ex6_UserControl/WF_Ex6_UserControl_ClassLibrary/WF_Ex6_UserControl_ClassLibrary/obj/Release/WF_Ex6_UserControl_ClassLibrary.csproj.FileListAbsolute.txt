@@ -1,0 +1,6 @@
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl_ClassLibrary\WF_Ex6_UserControl_ClassLibrary\bin\Release\WF_Ex6_UserControl_ClassLibrary.dll
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl_ClassLibrary\WF_Ex6_UserControl_ClassLibrary\bin\Release\WF_Ex6_UserControl_ClassLibrary.pdb
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl_ClassLibrary\WF_Ex6_UserControl_ClassLibrary\obj\Release\WF_Ex6_UserControl_ClassLibrary.LabelTimer.resources
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl_ClassLibrary\WF_Ex6_UserControl_ClassLibrary\obj\Release\WF_Ex6_UserControl_ClassLibrary.csproj.GenerateResource.Cache
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl_ClassLibrary\WF_Ex6_UserControl_ClassLibrary\obj\Release\WF_Ex6_UserControl_ClassLibrary.dll
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControl_ClassLibrary\WF_Ex6_UserControl_ClassLibrary\obj\Release\WF_Ex6_UserControl_ClassLibrary.pdb

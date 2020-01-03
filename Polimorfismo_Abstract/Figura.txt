@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Herencia
+{
+    abstract class Figura
+    {
+        private string nombreFigura;
+
+        public string NombreFigura
+        {
+            get { return nombreFigura; }
+            set { nombreFigura = value; }
+        }
+
+        public Figura(string nombreFigura)
+        {
+            this.NombreFigura = nombreFigura;
+        }
+
+        public abstract string GetDatosFigura();
+
+    }
+}

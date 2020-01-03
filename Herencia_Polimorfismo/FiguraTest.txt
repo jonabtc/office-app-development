@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Herencia
+{
+    class FigurasTest
+    {
+        static void Main(string[] args)
+        {
+            
+            //herencia
+            Figura figura = new Figura("Figura 1");
+            Console.WriteLine(figura.GetDatosFigura());
+
+            Cuadrilatero cuadrilatero = new Cuadrilatero("Cuadrilatero 1", 3, 5);
+            Console.WriteLine(cuadrilatero.GetDatosCuadrilatero());
+            Console.WriteLine(cuadrilatero.GetDatosFiguraDos());
+            
+            Rectangulo rectangulo = new Rectangulo("Rectangulo 1", 2, 4);
+            Console.WriteLine(rectangulo.GetDatosFiguraDos());
+
+            Cuadrado cuadrado = new Cuadrado("Cuadrado 1", 2);
+            Console.WriteLine(cuadrado.GetDatosFiguraDos());
+
+
+            //Clases polimorfismo
+            Figura[] figuras = new Figura[2];
+            figuras[0] = new Cuadrado("Cuadrado 2", 3);
+            figuras[1] = new Rectangulo("Rectangulo 2", 3,4);
+
+            Console.WriteLine(figuras[0].GetDatosFiguraDos());
+            Console.WriteLine(figuras[1].GetDatosFiguraDos());
+
+
+        }
+    }
+}

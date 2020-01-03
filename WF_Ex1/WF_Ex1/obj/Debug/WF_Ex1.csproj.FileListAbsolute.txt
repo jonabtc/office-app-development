@@ -1,0 +1,9 @@
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex1\WF_Ex1\bin\Debug\WF_Ex1.exe.config
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex1\WF_Ex1\bin\Debug\WF_Ex1.exe
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex1\WF_Ex1\bin\Debug\WF_Ex1.pdb
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex1\WF_Ex1\obj\Debug\WF_Ex1.csprojResolveAssemblyReference.cache
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex1\WF_Ex1\obj\Debug\WF_Ex1.Form1.resources
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex1\WF_Ex1\obj\Debug\WF_Ex1.Properties.Resources.resources
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex1\WF_Ex1\obj\Debug\WF_Ex1.csproj.GenerateResource.Cache
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex1\WF_Ex1\obj\Debug\WF_Ex1.exe
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex1\WF_Ex1\obj\Debug\WF_Ex1.pdb

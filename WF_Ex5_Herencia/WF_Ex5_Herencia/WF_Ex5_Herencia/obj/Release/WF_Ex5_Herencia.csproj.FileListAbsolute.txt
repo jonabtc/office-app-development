@@ -1,0 +1,8 @@
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex5_Herencia\WF_Ex5_Herencia\bin\Release\WF_Ex5_Herencia.dll.config
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex5_Herencia\WF_Ex5_Herencia\bin\Release\WF_Ex5_Herencia.dll
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex5_Herencia\WF_Ex5_Herencia\bin\Release\WF_Ex5_Herencia.pdb
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex5_Herencia\WF_Ex5_Herencia\obj\Release\WF_Ex5_Herencia.VisualInheritanceBaseForm.resources
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex5_Herencia\WF_Ex5_Herencia\obj\Release\WF_Ex5_Herencia.Properties.Resources.resources
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex5_Herencia\WF_Ex5_Herencia\obj\Release\WF_Ex5_Herencia.csproj.GenerateResource.Cache
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex5_Herencia\WF_Ex5_Herencia\obj\Release\WF_Ex5_Herencia.dll
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex5_Herencia\WF_Ex5_Herencia\obj\Release\WF_Ex5_Herencia.pdb

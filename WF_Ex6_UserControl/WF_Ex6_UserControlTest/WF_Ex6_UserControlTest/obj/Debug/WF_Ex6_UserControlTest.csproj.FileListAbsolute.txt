@@ -1,0 +1,11 @@
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControlTest\WF_Ex6_UserControlTest\bin\Debug\WF_Ex6_UserControlTest.exe.config
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControlTest\WF_Ex6_UserControlTest\bin\Debug\WF_Ex6_UserControlTest.exe
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControlTest\WF_Ex6_UserControlTest\bin\Debug\WF_Ex6_UserControlTest.pdb
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControlTest\WF_Ex6_UserControlTest\obj\Debug\WF_Ex6_UserControlTest.csprojResolveAssemblyReference.cache
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControlTest\WF_Ex6_UserControlTest\obj\Debug\WF_Ex6_UserControlTest.Form1.resources
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControlTest\WF_Ex6_UserControlTest\obj\Debug\WF_Ex6_UserControlTest.Properties.Resources.resources
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControlTest\WF_Ex6_UserControlTest\obj\Debug\WF_Ex6_UserControlTest.csproj.GenerateResource.Cache
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControlTest\WF_Ex6_UserControlTest\obj\Debug\WF_Ex6_UserControlTest.exe
+c:\users\leste_000\documents\visual studio 2013\Projects\WF_Ex6_UserControlTest\WF_Ex6_UserControlTest\obj\Debug\WF_Ex6_UserControlTest.pdb
+C:\Users\leste_000\Documents\Visual Studio 2013\Projects\WF_Ex6_UserControlTest\WF_Ex6_UserControlTest\bin\Debug\WF_Ex6_UserControl_ClassLibrary.dll
+C:\Users\leste_000\Documents\Visual Studio 2013\Projects\WF_Ex6_UserControlTest\WF_Ex6_UserControlTest\bin\Debug\WF_Ex6_UserControl_ClassLibrary.pdb

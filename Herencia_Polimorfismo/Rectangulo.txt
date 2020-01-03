@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Herencia
+{
+    class Rectangulo:Cuadrilatero, Herencia.IRectangulo 
+    {
+        public Rectangulo(string nombreFigura, int ancho, int largo)
+            : base(nombreFigura, ancho, largo)
+        {
+
+        }
+
+        public override string GetDatosFiguraDos()
+        {
+            return ("Rectangulo: " + this.NombreFigura + ", Ancho: " + this.Ancho + ", Largo: " + this.Largo + "\n"
+                + "Area: " + this.GetArea() + "\n"
+                + "Perimetro: " + this.GetPerimetro());
+        }
+        public int GetArea()
+        {
+            return Ancho * Largo;
+        }
+
+        public int GetPerimetro()
+        {
+            return 2*(Ancho + Largo);
+        }
+
+       
+    }
+}

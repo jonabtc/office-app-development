@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Interface
+{
+    abstract class Cuadrilatero : IFigura
+    {
+        private string nombreFigura;
+
+        public string NombreFigura
+        {
+            get { return nombreFigura; }
+            set { nombreFigura = value; }
+        }
+
+        private int largo;
+
+        public int Largo
+        {
+            get { return largo; }
+            set { largo = value; }
+        }
+        private int ancho;
+
+        public int Ancho
+        {
+            get { return ancho; }
+            set { ancho = value; }
+        }
+
+        public Cuadrilatero(string nombreFigura, int ancho, int largo)
+        {
+            this.nombreFigura = nombreFigura;
+            this.ancho = ancho;
+            this.largo = largo;
+        }
+
+        public abstract string GetDatosFigura();
+        public abstract int GetArea();
+        public abstract int GetPerimetro();
+
+    }
+}

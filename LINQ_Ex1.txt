@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LINQ_Ex1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Crear un array de enteros
+            int[] values = { 2, 9, 5, 0, 3, 7, 1, 4, 8, 5 };
+
+            //Mostramos los datos originales
+            Console.Write("Valores del arreglo original:");
+            foreach (var element in values )
+                Console.Write( " {0}", element );
+
+            //Con LINQ obtenemos los valores mayores a 4
+            var filtered = from value in values 
+                           where value > 4 
+                           select value;
+
+            //Mostramos los datos filtrados
+            Console.Write("\nValores del arreglo mayores que 4:");
+            foreach (var element in filtered)
+                Console.Write(" {0}", element);
+
+            //Con LINQ ordenamos los valores del arreglo original
+            var sorted = from value in values
+                           orderby value
+                           select value;
+
+            //Mostramos los datos filtrados
+            Console.Write("\nValores del arreglo ordenado:");
+            foreach (var element in sorted)
+                Console.Write(" {0}", element);
+
+
+            //Con LINQ obtenemos los valores mayores a 4
+            var sortAndFiltered = from value in values
+                           where value > 4
+                           orderby value descending
+                           select value;
+
+            //Mostramos los datos filtrados
+            Console.Write("\nValores del arreglo mayores que 4 ordenados:");
+            foreach (var element in sortAndFiltered)
+                Console.Write(" {0}", element);
+
+
+            Console.WriteLine("");
+
+        }
+    }
+}

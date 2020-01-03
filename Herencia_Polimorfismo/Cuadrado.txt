@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Herencia
+{
+    class Cuadrado:Cuadrilatero
+    {
+        public Cuadrado(string nombreFigura, int ancho)
+            : base(nombreFigura, ancho, ancho)
+        {
+
+        }
+
+        public override string GetDatosFiguraDos()
+        {
+            return ("Cuadrado: " + this.NombreFigura + ", Ancho: " + this.Ancho + ", Largo: " + this.Largo + "\n"
+                + "Area: " + this.GetArea() + "\n"
+                + "Perimetro: " + this.GetPerimetro());
+        }
+        public int GetArea()
+        {
+            return Ancho*Ancho;
+        }
+
+        public int GetPerimetro()
+        {
+            return 4 * (Ancho);
+        }
+        
+
+    }
+}

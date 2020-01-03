@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo JavaScript</title>
+    <script>
+        function cambiarColor() {
+            document.getElementById('demo').style.backgroundColor = "blue";
+        }
+    </script>
+</head>
+<body>
+    
+    <h1>My First JavaScript</h1>
+
+    <button type="button"
+            onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.
+    </button>
+    <br />
+    <a href="#" onclick="cambiarColor()">Cambiar Color</a>
+
+    <p id="demo"></p>
+
+</body>
+</html>>

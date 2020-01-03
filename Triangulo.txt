@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace triangulo
+{
+    class Triangulo
+    {
+        private int ladoUno;
+        private int ladoDos;
+        private int ladoTres;
+
+        public int LadoUno { get; set; }
+        public int LadoDos { get; set; }
+        public int LadoTres { get; set; }
+
+        public Triangulo(int ladoUno, int ladoDos, int ladoTres)
+        {
+            LadoUno = ladoUno;
+            LadoDos = ladoDos;
+            LadoTres = ladoTres;
+        }
+        public void getTipoTriangulo()
+        {
+            if (LadoUno == LadoDos && LadoUno == LadoTres)
+            {
+                Console.WriteLine("El triángulo es equilátero, lado uno: {0}, lado dos {1}, lado tres {2}",
+                    LadoUno,LadoDos,LadoTres);
+            }
+            else
+            {
+                if (LadoUno == LadoDos || LadoUno == LadoTres || LadoDos == LadoTres)
+                {
+                    Console.WriteLine("El triángulo es isósceles, lado uno: {0}, lado dos {1}, lado tres {2}",
+                    LadoUno, LadoDos, LadoTres);
+                }
+                else
+                {
+                    Console.WriteLine("El triángulo es escaleno, lado uno: {0}, lado dos {1}, lado tres {2}",
+                    LadoUno, LadoDos, LadoTres);
+                }  
+            }
+        }
+    }
+}

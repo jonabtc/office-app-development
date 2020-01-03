@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Interface
+{
+    class FigurasTest
+    {
+        static void Main(string[] args)
+        {
+
+            //Interface
+            //polimorfismo
+            IFigura[] figuras = new IFigura[2];
+            figuras[0] = new Cuadrado("Cuadrado 2", 3);
+            figuras[1] = new Rectangulo("Rectangulo 2", 3,4);
+
+            Console.WriteLine(figuras[0].GetDatosFigura());
+            Console.WriteLine(figuras[1].GetDatosFigura());
+            
+
+        }
+    }
+}

@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MetodosEstaticos
+{
+    class Metodos
+    {
+        static void Main(string[] args)
+        {   
+            Random randomNumbers = new Random();
+            int numero1 = randomNumbers.Next(1, 11);
+            int numero2 = randomNumbers.Next(1, 11);
+            int numero3 = randomNumbers.Next(1, 11);
+
+            Console.WriteLine("El mayor numero entre {0},{1},{2} es: " + GetMaximun(numero1, numero2, numero3),numero1,numero2,numero3);
+
+            int[] numeros = { numero1, numero2, numero3 };
+
+            Console.WriteLine("El mayor numero entre {0},{1},{2} es: " + GetMaximun(numeros), numero1, numero2, numero3);
+           
+        }
+
+        public static int GetMaximun(int numero1, int numero2, int numero3){
+            int numeroAux=numero1;
+            
+            if (numero2 > numeroAux)
+                numeroAux = numero2;
+            
+            if (numero3 > numeroAux)
+                numeroAux = numero3;
+            
+            return numeroAux;
+        }
+
+        public static int GetMaximun(int[] numeros)
+        {
+            return Math.Max(numeros[0],Math.Max(numeros[1],numeros[2]));
+        }
+    }
+}

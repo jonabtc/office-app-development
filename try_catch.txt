@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                // Convert.ToInt32 generates FormatException
+                // if argument cannot be converted to an integer
+                Console.Write("Enter an integer numerator: ");
+                int numerator = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter an integer denominator: ");
+                int denominator = Convert.ToInt32(Console.ReadLine());
+                // division generates DivideByZeroException
+                // if denominator is 0
+                int result = numerator / denominator;
+                // display result
+                Console.WriteLine("\nResult: {0} / {1} = {2}",
+                numerator, denominator, result);
+            } // end try
+            catch (FormatException formatException)
+            {
+                Console.WriteLine("\n" + formatException.Message);
+                Console.WriteLine(
+                "You must enter two integers. Please try again.\n");
+            } // end catch
+            catch (DivideByZeroException divideByZeroException)
+            {
+                Console.WriteLine("\n" + divideByZeroException.Message);
+                Console.WriteLine(
+                "Zero is an invalid denominator. Please try again.\n");
+            } // end catch
+        }
+    }
+}

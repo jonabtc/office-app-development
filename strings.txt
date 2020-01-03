@@ -1,0 +1,132 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace StringsCharacters
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //char initialization
+            char caracter = 'a';
+            Console.WriteLine("Caracter: {0}, ASCII: {1}", caracter, (int)caracter);
+
+            // string initialization
+            char[] characterArray = { 'b', 'i', 'r', 't', 'h', ' ', 'd', 'a', 'y' };
+            string originalString = "Welcome to C# programming!";
+            string string1 = originalString;
+            string string2 = new string(characterArray);
+            string string3 = new string(characterArray, 6, 3);
+            string string4 = new string('C', 5);
+
+            Console.WriteLine("string1 = " + "\"" + string1 + "\"\n" +
+                "string2 = " + "\"" + string2 + "\"\n" +
+                "string3 = " + "\"" + string3 + "\"" + (char)10 +
+                "string4 = " + "\"" + string4 + "\"\n");
+
+            //caracteres especiales
+            string file1 = "C:\\MyFolder\\MySubFolder\\MyFile.txt";
+            string file2 = @"C:\MyFolder\MySubFolder\MyFile.txt";
+            Console.WriteLine(file1);
+            Console.WriteLine(file2);
+
+            // test Length property
+            Console.WriteLine("Length of file1: " + file1.Length);
+
+            // loop through characters in string1 and display reversed
+            Console.Write("The string reversed is: ");
+
+            for (int i = file2.Length - 1; i >= 0; i--)
+                Console.Write(file2[i]);
+
+            Console.WriteLine();
+
+            // copy characters from string1 into characterArray
+            file1.CopyTo(0, characterArray, 0, characterArray.Length);
+            Console.Write("\nThe character array is: ");
+
+            for (int i = 0; i < characterArray.Length; i++)
+                Console.Write(characterArray[i]);
+
+            Console.WriteLine("\n");
+
+            //Compare Strings
+            if (string1.Equals("hello"))
+                Console.WriteLine("string1 equals \"hello\"");
+            else
+                Console.WriteLine("string1 does not equal \"hello\"");
+
+            // test for equality with ==
+            if (string1 == "hello")
+                Console.WriteLine("string1 equals \"hello\"");
+            else
+                Console.WriteLine("string1 does not equal \"hello\"");
+
+            // test for equality with ==
+            if (string1 == "hello")
+                Console.WriteLine("string1 equals \"hello\"");
+            else
+                Console.WriteLine("string1 does not equal \"hello\"");
+
+            // test for equality comparing case
+            if (string.Equals(string3, string4)) // static method
+                Console.WriteLine("string3 equals string4");
+            else
+                Console.WriteLine("string3 does not equal string4");
+
+            // test CompareTo
+            Console.WriteLine("\nstring1.CompareTo( string2 ) is " + string1.CompareTo(string2));
+
+            string[] strings = { "started", "starting", "ended", "ending" };
+
+            // test every string to see if it starts with "st"
+            for (int i = 0; i < strings.Length; i++)
+                if (strings[i].StartsWith("st"))
+                    Console.WriteLine("\"" + strings[i] + "\"" +
+                    " starts with \"st\"");
+            Console.WriteLine();
+
+            // test every string to see if it ends with "ed"
+            for (int i = 0; i < strings.Length; i++)
+                if (strings[i].EndsWith("ed"))
+                    Console.WriteLine("\"" + strings[i] + "\"" +
+                    " ends with \"ed\"");
+
+
+
+            // test IndexOf to locate a character in a string
+            string letters = "abcdefghijklmabcdefghijklm";
+            Console.WriteLine("First 'c' is located at index " + letters.IndexOf('c'));
+            Console.WriteLine("First 'a' starting at 1 is located at index " + letters.IndexOf('a', 1));
+            Console.WriteLine("First '$' in the 5 positions starting at 3 is located at index " + letters.IndexOf('$', 3, 5));
+            Console.WriteLine("\nFirst \"def\" is located at index " + letters.IndexOf("def"));
+
+            // test LastIndexOf to find a character in a string
+            Console.WriteLine("\nLast 'c' is located at index " + letters.LastIndexOf('c'));
+            Console.WriteLine("Last 'a' up to position 25 is located at index " + letters.LastIndexOf('a', 25));
+            Console.WriteLine("Last '$' in the 5 positions starting at 15 is located at index " + letters.LastIndexOf("$", 15, 5));
+            Console.WriteLine("\nLast \"def\" is located at index " + letters.LastIndexOf("def"));
+
+            // test IndexOfAny to find first occurrence of character in array
+            Console.WriteLine("\nFirst 'c', 'a' or '$' is located at index " + letters.IndexOfAny(characterArray));
+
+            // test LastIndexOfAny to find last occurrence of character in array
+            Console.WriteLine("\nLast 'c', 'a' or '$' is located at index " + letters.LastIndexOfAny(characterArray));
+
+            // invoke Substring method and pass it one parameter
+            Console.WriteLine("Substring from index 20 to end is \"" + letters.Substring(20) + "\"");
+
+            // invoke Substring method and pass it two parameters
+            Console.WriteLine("Substring from index 0 of length 6 is \"" + letters.Substring(0, 6) + "\"");
+
+            //concatenate
+            Console.WriteLine("string1 = \"" + string1 + "\"\n" + "string2 = \"" + string2 + "\"");
+            Console.WriteLine("\nResult of string.Concat( string1, string2 ) = ");
+            Console.WriteLine("string1 after concatenation = " + string1);
+
+        }
+    }
+}
